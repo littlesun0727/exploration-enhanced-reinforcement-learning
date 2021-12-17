@@ -4,10 +4,6 @@
 It is the deep-Q-learning algorithm introduced in section Baseline Algorithms in the report.
 
 
-## ES (baseline)
-It is the Evolution Strategy algorithm introduced in section Baseline Algorithms in the report.
-
-
 ## Self Curiocity DQN
 In this problem, the mouse will receive a reward 1 if he reaches the target otherwise he will receive no reward 0. The reward is really sparse and he will receive 0 reward in almost all his trails which makes DQN unsuitable for this environment.
 To solve this problem, we give a curiosity reward to the mouse in order to encourage him go to different state. The curiosity reward is defined as follows:
